@@ -1,9 +1,8 @@
 let inp = document.querySelector('input');
-let btn = document.querySelector('button');
 
+inp.addEventListener("click", add)
 
-inp.addEventListener('value', add)
+function add() {
 
-function add(){
 
 }

@@ -2,47 +2,30 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:rgb(200, 188, 188);
-
+    text-align: center;
 }
 
 div {
-    background-color:floralwhite;
+    margin: 10px auto 10px auto;
+    background-color: floralwhite;
     height: 80vh;
     width: 80vh;
     border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
-}
 
-table {
-    align-items: start;
-    margin: auto;
 }
 
 input {
     margin-bottom: 5px;
-    padding: 20px;
-}
-button{
-    border: 1px;
-    border-radius: 10px;
-    background-color:burlywood;
-    padding: 0px 80px 0px 80px;
-}
-
-ul{
-list-style: circle;
-list-style-position: outside;
 
 }
-button:hover{
+
+
+ul {
+    list-style: circle;
+
+}
+
+button:hover {
     background-color: blueviolet;
 }
