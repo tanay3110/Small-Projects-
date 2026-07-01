@@ -11,20 +11,18 @@ div {
     height: 80vh;
     width: 80vh;
     border: 1px solid black;
-
-
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
+btn{
+    padding: 10px;
+}
 input {
     margin-bottom: 5px;
-
 }
 
-
-ul {
-    list-style: circle;
-
-}
 
 button:hover {
     background-color: blueviolet;
